@@ -62,6 +62,7 @@ class DepthCalculator {
 2. English - `B2+`
 3. Mandarin - `A1`
 4. German - `A1`
+
 ## Overall
 
 ### Education
