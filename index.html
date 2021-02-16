@@ -10,6 +10,116 @@
 
 <body>
 
+    <h1 id="maksim-tsvik">MAKSIM TSVIK</h1>
+    <p><strong>Personal details</strong></p>
+    <ul>
+        <li>10 December 1987; Minsk, Belarus</li>
+        <li>+375 29 626 93 57 (BY)</li>
+        <li>+86 136 8093 3284 (CN)</li>
+        <li><a href="mailto:mkdemix@tut.by">mkdemix@tut.by</a></li>
+        <li><a href="www.linkedin.com/in/maksim-tsvik">LinkedIn</a></li>
+        <li><a href="https://github.com/MaksimTsvik">GitHub</a></li>
+    </ul>
+
+    <h2 id="about-me">About me</h2>
+    <p>I am a professional Mechanical Engineer and now decided to retrain as a front-end developer.
+        Reliable, responsible, easy-going and quick-learner these are main characteristic about me.
+        I know how to perform tasks well, able to prioritize quickly and make right decision after weghing up all pros
+        and
+        cons.</p>
+    <h2 id="training">Training</h2>
+    <ol>
+        <li><a href="https://htmlacademy.ru/">HTML Academy</a></li>
+        <li><a href="https://learn.javascript.ru/">Learn JS</a></li>
+        <li><a href="https://www.codewars.com/">Codewars</a></li>
+    </ol>
+    <h2 id="skills">Skills</h2>
+    <ul>
+        <li>HTML and CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>Agile/Waterfall</li>
+        <li>SQL</li>
+        <li>Java (Core)</li>
+    </ul>
+    <h2 id="-code-example-recursive-array-depth-calculator"><code>Code</code> example - Recursive <em>array
+            depth</em>calculator</h2>
+    <pre>
+        <code class="lang-javascript">
+class DepthCalculator {
+  calculateDepth(array) {
+    // Add<span class="hljs-built_in"> array </span>counter
+    let count = 1
+    // Return 0 is it is<span class="hljs-built_in"> not </span>array
+   <span class="hljs-built_in"> if </span>(!Array.isArray(array)) {
+     <span class="hljs-built_in"> return </span>0
+    }
+    //<span class="hljs-built_in"> if </span>it is<span class="hljs-built_in"> array </span>- calculate nested arrays count via reducer<span class="hljs-built_in"> and </span>recursion
+    let nestedCount = array.reduce((count, next) =&gt; {
+     <span class="hljs-built_in"> if </span>(Array.isArray(next)) {
+        let newCount = this.calculateDepth(next);
+       <span class="hljs-built_in"> return </span>count &gt; newCount ? count<span class="hljs-keyword"> :</span> newCount;
+      }
+     <span class="hljs-built_in"> return </span>count;
+    }, 0)
+    // Return total count
+   <span class="hljs-built_in"> return </span>count + nestedCount
+  }
+};
+        </code>
+    </pre>
+    <h2 id="languages">Languages</h2>
+    <ol>
+        <li>Russian\Belarusian - <code>native</code></li>
+        <li>English - <code>B2+</code></li>
+        <li>Mandarin - <code>A1</code></li>
+        <li>German - <code>A1</code></li>
+    </ol>
+    <h2 id="overall">Overall</h2>
+    <h3 id="education">Education</h3>
+    <ul>
+        <li>9.2009 - 1.2011 <strong>Bachelor degree as Interpreter (English)</strong><br>
+            <em>State educational institution &quot;Academy of Postgraduate Education&quot;</em>
+        </li>
+        <li>7.2005 - 6.2010 <strong>Bachelor degree as Engineer, management specialist</strong><br>
+            <em>Belarusian National Technical University</em>
+        </li>
+    </ul>
+    <h3 id="professional-experience">Professional experience</h3>
+    <ul>
+        <li>Since 9.2019 <strong>Mechanical engineer, LAB engineer (R&amp;D and Prototyping)</strong><br>
+            <em><a href="https://www.epam.com/">EPAM Systems Inc.</a>, ESID MRL</em>
+        </li>
+        <li>6.2017 - 9.2019 <strong>Warranty and service engineer in SEA region</strong><br>
+            <em><a href="https://www.izovac.com/">Izovac Ltd.</a></em>
+        </li>
+        <li>6.2015 - 6.2017 <strong>Regional representative in the Republic of Belarus</strong><br>
+            <em><a href="https://izmerkon.ru/">LLC &#39;Izmerenie i control&#39;</a></em>
+        </li>
+        <li>7.2010 - 6.2015 <strong>Chief of Staff (military rank - Captain)</strong><br>
+            <em><a href="https://www.mil.by">Military unit 31802</a></em>
+        </li>
+    </ul>
+    <h3 id="voluntary-experience">Voluntary experience</h3>
+    <ul>
+        <li>2011-2014 Head of mine cleaning ation team.</li>
+        <li>Since 2011 – Bioreactor for decellularization (PoC/Alpha).</li>
+        <li>2020 – COVID-19 volunteer: <ul>
+                <li>protective cover;</li>
+                <li>UV sterilization box;</li>
+                <li>bactericidal UV recirculator.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3 id="other">Other</h3>
+    <ul>
+        <li>System thinking.</li>
+        <li>High speed of work.</li>
+        <li>Responsibility for achieving results.</li>
+        <li>Stress resistance.</li>
+        <li>Ability to organize people for the tasks.</li>
+    </ul>
+
 </body>
 
 </html>
