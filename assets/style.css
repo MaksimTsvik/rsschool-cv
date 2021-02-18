@@ -4,6 +4,7 @@ body {
   color: #cccccc;
   margin: 0;
 }
+
 .bg-image {
   background-image: url("bgImgB.jpg");
   background-color: #ffffff;
@@ -17,10 +18,10 @@ body {
 }
 
 .wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 700px;
-    margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .container {
@@ -32,16 +33,17 @@ body {
   width: 45%;
 }
 
-.info{
+.info {
   width: 55%;
 }
 
 img {
   max-width:100%;
   height: auto;
+  vertical-align: middle;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -56,6 +58,7 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
   color:  #cccccc;
   transition: linear 0.5s ;
 }
@@ -68,11 +71,11 @@ a:hover {
   text-align: justify;
 }
 
-pre {
+.pre {
   color: black;
   background-color: rgba(238, 238, 238, 0.589);
 }
 
-code {
+.code {
   font-family: courier, monospace;
 }
