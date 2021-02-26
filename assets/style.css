@@ -1,50 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: #cccccc;
   margin: 0;
 }
 
 .bg-image {
-  background-image: url("bgImgB.jpg");
+  background: url("./bgImgB.jpg") no-repeat center;
   background-color: #ffffff;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.photos {
-  width: 45%;
-}
-
-.info {
-  width: 55%;
 }
 
 img {
   max-width:100%;
   height: auto;
-  vertical-align: middle;
 }
 
-h1 {
-  text-align: center;
+.wrapper {
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -63,19 +48,98 @@ a:hover {
   transition: linear 0.5s ;
 }
 
+/*HEADER START*/
+.header {
+  text-align: center;
+}
+/*HEADER END*/
+
+/*MAIN INFO START*/
+.wrapper_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.personal_photo {
+  max-width: 300px;
+  height: auto;
+}
+
+.my_img {
+  border-radius: 25px;
+  border: 2px solid lightgrey;
+  box-shadow: 0 0 7px #666;
+}
+
+.personal_details_header {
+  margin-top: 0;
+}
+
 .personal_details {
   margin-left: 10px;
 }
 
-.about {
+.about_me_info {
   text-align: justify;
 }
 
-.pre {
+.pre_text {
   color: black;
   background-color: rgba(238, 238, 238, 0.589);
+  border: black solid 2px;
 }
 
 .code {
-  font-family: courier, monospace;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6em;
 }
+
+.overall {
+  font-size: 0.9em;
+}
+.voluntary, .other {
+  max-width: 50%;
+}
+/*MAIN INFO END*/
+
+/*FOOTER START*/
+.bottom_info {
+  padding-top: 10px;
+}
+
+.bottom_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.bottom_link {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.gh_logo {
+  background: url(./GitHub-Mark-32px.png) no-repeat center;
+}
+
+.rs_logo {
+  background: url(./rs_school_js.svg) no-repeat center;
+}
+
+.yt_logo {
+  background: url(./you_tube_icon.svg) no-repeat center;
+}
+
+.bottom_link:hover {
+  transform: scale(1.5);
+  transition: linear 0.2s ;
+}
+/*FOOTER END*/

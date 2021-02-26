@@ -6,87 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV Maksim Tsvik">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <title>Maksim Tsvik</title>
 </head>
 
 <body class="bg-image">
 
-    <header>
-        <h1>MAKSIM TSVIK</h1>
-    </header>
-
     <div class="wrapper">
-        <main>
-            <section class="container">
-                <div class="photos">
-                    <img src="assets/MaksimTsvik.jpg" alt="Maksim Tsvik">
-                </div>
-                <div class="info">
-                    <h2 class="personal_details">Personal details</h2>
-                    <ul>
-                        <li>10 December 1987; Minsk, Belarus</li>
-                        <li>+375 29 626 93 57 (BY)</li>
-                        <li>+86 136 8093 3284 (CN)</li>
-                        <li><a href="mailto:mkdemix@tut.by">mkdemix@tut.by</a></li>
-                        <li><a href="www.linkedin.com/in/maksim-tsvik">LinkedIn</a></li>
-                        <li><a href="https://github.com/MaksimTsvik">GitHub</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h2>About me</h2>
-                <p class="about">
-                    I am a professional Mechanical Engineer and now decided to retrain as a front-end developer.
-                    Reliable, responsible, easy-going and quick-learner these are main characteristic about me.
-                    I know how to perform tasks well, able to prioritize quickly and make right decision after weghing
-                    up all pros and cons.
-                </p>
-            </section>
-            <section class="container">
-                <div class="training">
-                    <h2>Training</h2>
-                    <ol>
-                        <li><a href="https://htmlacademy.ru/">HTML Academy</a></li>
-                        <li><a href="https://learn.javascript.ru/">Learn JS</a></li>
-                        <li><a href="https://www.codewars.com/">Codewars</a></li>
-                    </ol>
-                </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>HTML and CSS</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
-                        <li>Agile/Waterfall</li>
-                        <li>SQL</li>
-                        <li>Java (Core)</li>
-                    </ul>
-                </div>
-                <div class="languages">
-                    <h2>Languages</h2>
-                    <ol>
-                        <li>Russian\Belarusian - <code>native</code></li>
-                        <li>English - <code>B2+</code></li>
-                        <li>Mandarin - <code>A1</code></li>
-                        <li>German - <code>A1</code></li>
-                    </ol>
-                </div>
-            </section>
-            <section>
-                <h2>Code example:<br>
-                    Recursive <i>array depth</i> calculator</h2>
-                <pre class="pre">
-                <code class="code">
-class DepthCalculator {
-    calculateDepth(array) {
-    // Add array counter
-    let count = 1
-    // Return 0 is it is not array
+        <!--HEADER START-->
+        <header class="header">
+            <h1 class="h1">MAKSIM TSVIK</h1>
+        </header>
+        <!--HEADER END-->
+        <!--MAIN INFO START-->
+        <main class="main">
+            <article class="all_info">
+                <section class="details wrapper_main">
+                    <div class="personal_photo">
+                        <img src="assets/MaksimTsvik.jpg" alt="Maksim Tsvik" class="my_img">
+                    </div>
+                    <div class="personal_details">
+                        <h2 class="personal_details_header">Personal details</h2>
+                        <ul class="personal_details_list">
+                            <li class="personal_details_item">10 December 1987; Minsk, Belarus</li>
+                            <li class="personal_details_item"><a href="tel:+375296269357">+375 29 626 93 57 (BY)</a>
+                            </li>
+                            <li class="personal_details_item"><a href="tel:+8613680933284">+86 136 8093 3284 (CN)</a>
+                            </li>
+                            <li class="personal_details_item"><a href="mailto:mkdemix@tut.by">mkdemix@tut.by</a></li>
+                            <li class="personal_details_item"><a
+                                    href="https://linkedin.com/in/maksim-tsvik">LinkedIn</a></li>
+                            <li class="personal_details_item"><a href="https://github.com/MaksimTsvik">GitHub</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="about_me">
+                    <h2 class="about_me_header">About me</h2>
+                    <p class="about_me_info">
+                        I am a professional Mechanical Engineer and now decided to retrain as a front-end developer.
+                        Reliable, responsible, easy-going and quick-learner these are main characteristic about me.
+                        I know how to perform tasks well, able to prioritize quickly and make right decision after
+                        weghing
+                        up all pros and cons.
+                    </p>
+                </section>
+                <section class="wrapper_main">
+                    <div class="training">
+                        <h2 class="training_header">Training</h2>
+                        <ol class="training_list">
+                            <li class="training_item"><a href="https://htmlacademy.ru/">HTML Academy</a></li>
+                            <li class="training_item"><a href="https://learn.javascript.ru/">Learn JS</a></li>
+                            <li class="training_item"><a href="https://www.codewars.com/">Codewars</a></li>
+                        </ol>
+                    </div>
+                    <div class="skills">
+                        <h2 class="skills_header">Skills</h2>
+                        <ul class="skills_list">
+                            <li class="skills_item">HTML and CSS</li>
+                            <li class="skills_item">JavaScript</li>
+                            <li class="skills_item">Git</li>
+                            <li class="skills_item">Agile/Waterfall</li>
+                            <li class="skills_item">SQL</li>
+                            <li class="skills_item">Java (Core)</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h2 class="languages_heager">Languages</h2>
+                        <ol class="languages_list">
+                            <li class="languages_item">Russian\Belarusian - native</li>
+                            <li class="languages_item">English - B2+</li>
+                            <li class="languages_item">Mandarin - A1</li>
+                            <li class="languages_item">German - A1</li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="code_example">
+                    <h2 class="code_example_header">Code example:<br>
+                        Recursive <i>array depth</i> calculator</h2>
+                    <pre class="pre_text">
+                    <code class="code">
+ class DepthCalculator {
+     calculateDepth(array) {
+     // Add array counter
+     let count = 1
+     // Return 0 is it is not array
      if (!Array.isArray(array)) {
-          return 0
+       return 0
      }
      // calculate nested array count via reducer and recursion
      let nestedCount = array.reduce((count, next) =&gt; {
@@ -95,62 +104,94 @@ class DepthCalculator {
             return count &gt; newCount ? count : newCount;
         }
         return count;
-        }, 0)
-    // Return total count
-    return count + nestedCount
-    }
-};</code>
-                </pre>
-            </section>
-            <section>
-                <h2>Overall</h2>
+     }, 0)
+     // Return total count
+     return count + nestedCount
+     }
+ };</code>
+                    </pre>
+                </section>
+                <section class="overall">
+                    <h2 class="overall_header">Overall</h2>
 
-                <h3>Education</h3>
-                <ul>
-                    <li>9.2009 - 1.2011 <b>Bachelor degree as Interpreter (English)</b><br>
-                        <i>State educational institution &quot;Academy of Postgraduate Education&quot;</i>
-                    </li>
-                    <li>7.2005 - 6.2010 <b>Bachelor degree as Engineer, management specialist</b><br>
-                        <i>Belarusian National Technical University</i>
-                    </li>
-                </ul>
-                <h3>Professional experience</h3>
-                <ul>
-                    <li>Since 9.2019 <b>Mechanical engineer, LAB engineer (R&amp;D and Prototyping)</b><br>
-                        <i><a href="https://www.epam.com/">EPAM Systems Inc.</a>, ESID MRL</i>
-                    </li>
-                    <li>6.2017 - 9.2019 <b>Warranty and service engineer in SEA region</b><br>
-                        <i><a href="https://www.izovac.com/">Izovac Ltd.</a></i>
-                    </li>
-                    <li>6.2015 - 6.2017 <b>Regional representative in the Republic of Belarus</b><br>
-                        <i><a href="https://izmerkon.ru/">LLC &quot;Izmerenie i control&quot;</a></i>
-                    </li>
-                    <li>7.2010 - 6.2015 <b>Chief of Staff (military rank - Captain)</b><br>
-                        <i><a href="https://www.mil.by">Military unit 31802</a></i>
-                    </li>
-                </ul>
-                <h3>Voluntary experience</h3>
-                <ul>
-                    <li>2011-2014 Head of mine cleaning ation team.</li>
-                    <li>Since 2011 – Bioreactor for decellularization (PoC/Alpha).</li>
-                    <li>2020 – COVID-19 volunteer: <ul>
-                            <li>protective cover;</li>
-                            <li>UV sterilization box;</li>
-                            <li>bactericidal UV recirculator.</li>
-                        </ul>
-                    </li>
-                </ul>
-                <h3>Other</h3>
-                <ul>
-                    <li>System thinking.</li>
-                    <li>High speed of work.</li>
-                    <li>Responsibility for achieving results.</li>
-                    <li>Stress resistance.</li>
-                    <li>Ability to organize people for the tasks.</li>
-                </ul>
-            </section>
+                    <h3 class="overall_subheader">Education</h3>
+                    <ul class="education_list">
+                        <li class="education_item">9.2009 - 1.2011 <b>Bachelor degree as Interpreter (English)</b><br>
+                            <i>State educational institution &quot;Academy of Postgraduate Education&quot;</i>
+                        </li>
+                        <li class="education_item">7.2005 - 6.2010 <b>Bachelor degree as Engineer, management
+                                specialist</b><br>
+                            <i>Belarusian National Technical University</i>
+                        </li>
+                    </ul>
+                    <h3 class="overall_subheader">Professional experience</h3>
+                    <ul class="experience_list">
+                        <li class="experience_item">Since 9.2019 <b>Mechanical engineer, LAB engineer (R&amp;D and
+                                Prototyping)</b><br>
+                            <i><a href="https://www.epam.com/">EPAM Systems Inc.</a>, ESID MRL</i>
+                        </li>
+                        <li class="experience_item">6.2017 - 9.2019 <b>Warranty and service engineer in SEA
+                                region</b><br>
+                            <i><a href="https://www.izovac.com/">Izovac Ltd.</a></i>
+                        </li>
+                        <li class="experience_item">6.2015 - 6.2017 <b>Regional representative in the Republic of
+                                Belarus</b><br>
+                            <i><a href="https://izmerkon.ru/">LLC &quot;Izmerenie i control&quot;</a></i>
+                        </li>
+                        <li class="experience_item">7.2010 - 6.2015 <b>Chief of Staff (military rank - Captain)</b><br>
+                            <i><a href="https://www.mil.by">Military unit 31802</a></i>
+                        </li>
+                    </ul>
+                    <div class="wrapper_main">
+                        <div class="voluntary">
+                            <h3 class="overall_subheader">Voluntary experience</h3>
+                            <ul class="voluntary_list">
+                                <li class="voluntary_item">2011-2014 Head of mine cleaning ation team.</li>
+                                <li class="voluntary_item">Since 2011 – Bioreactor for decellularization (PoC/Alpha).
+                                </li>
+                                <li class="voluntary_item">2020 – COVID-19 volunteer: <ul>
+                                        <li class="voluntary_subitem">protective cover;</li>
+                                        <li class="voluntary_subitem">UV sterilization box;</li>
+                                        <li class="voluntary_subitem">bactericidal UV recirculator.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="other">
+                            <h3 class="overall_subheader">Other</h3>
+                            <ul class="overall_list">
+                                <li class="overall_item">System thinking.</li>
+                                <li class="overall_item">High speed of work.</li>
+                                <li class="overall_item">Responsibility for achieving results.</li>
+                                <li class="overall_item">Stress resistance.</li>
+                                <li class="overall_item">Ability to organize people for the tasks.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </article>
 
         </main>
+        <!--MAIN INFO END-->
+        <!--FOOTER START-->
+        <footer class="footer">
+            <div class="bottom_info">
+                <nav class="bottom_nav">
+                    <ul class="bottom_list">
+                        <li class="bottom_item">
+                            <a href="https://github.com/MaksimTsvik" class="bottom_link gh_logo"></a>
+                        </li>
+                        <li class="bottom_item">
+                            <a href="https://rs.school/js/" class="bottom_link rs_logo"></a>
+                        </li>
+                        <li class="bottom_item">
+                            <a href="#" class="bottom_link yt_logo"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <!--FOOTER END-->
     </div>
 
 </body>
