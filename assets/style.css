@@ -120,10 +120,6 @@ a:hover {
   margin: 0;
 }
 
-.bottom_item {
-  
-}
-
 .bottom_link {
   display: flex;
   width: 80px;
@@ -134,7 +130,6 @@ a:hover {
 .gh_logo {
   width: 75%;
   height: 75%;
-  
 }
 
 .bottom_link:hover {
