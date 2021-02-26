@@ -118,25 +118,23 @@ a:hover {
   justify-content: space-around;
   padding: 0;
   margin: 0;
-  margin-bottom: 10px;
+}
+
+.bottom_item {
+  
 }
 
 .bottom_link {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: center;
 }
 
 .gh_logo {
-  background: url(./GitHub-Mark-32px.png) no-repeat center;
-}
-
-.rs_logo {
-  background: url(./rs_school_js.svg) no-repeat center;
-}
-
-.yt_logo {
-  background: url(./you_tube_icon.svg) no-repeat center;
+  width: 75%;
+  height: 75%;
+  
 }
 
 .bottom_link:hover {
